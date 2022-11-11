@@ -52,8 +52,15 @@ a {
 }
 
 .btn-primary {
+  font-weight: 600;
   background: rgb(255, 237, 237);
-  border: rgb(255, 237, 237);
+  border: 1px solid rgb(255, 237, 237);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-primary:hover {
+  background: rgb(208, 246, 255);
+  border: 1px solid rgb(208, 246, 255);
 }
 
 .overview {
