@@ -1,11 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(
+  /* background: linear-gradient(
     89.9deg,
     rgb(208, 246, 255) 0.1%,
     rgb(255, 237, 237) 47.9%,
     rgb(255, 255, 231) 100.2%
-  );
+  ); */
+  background: #dfe6df;
 }
 
 h1 {
@@ -38,6 +39,7 @@ ul {
 a {
   text-decoration: none;
   font-weight: 600;
+  color: #c7b198;
 }
 
 .weather-app-wrapper {
@@ -53,8 +55,8 @@ a {
 
 .btn-primary {
   font-weight: 600;
-  background: rgb(255, 237, 237);
-  border: 1px solid rgb(255, 237, 237);
+  background: #c7b198;
+  border: 1px solid #c7b198;
   transition: all 200ms ease-in-out;
 }
 
